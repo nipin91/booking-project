@@ -1,0 +1,83 @@
+.testimonials {
+  max-width: 680px;
+  padding-top: 100px;
+  padding-bottom: 10px;
+  display: none;
+
+  @media (min-width: 992px) {
+    display: flex;
+  }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    width: 280px;
+    padding-top: 70px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+  }
+
+  .carousel-indicators {
+    display: flex;
+    justify-content: start;
+    padding-right: 0px;
+    margin-bottom: -15px;
+    @media (min-width: 768px) and (max-width: 1024px) {
+      display: flex;
+      justify-content: start;
+    }
+  }
+
+  .carousel-item {
+    @media (min-width: 768px) and (max-width: 1024px) {
+      width: 300px !important;
+    }
+  }
+
+  .quote {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 48px;
+    color: #000000;
+    margin-bottom: 25px;
+    @media (min-width: 768px) and (max-width: 1024px) {
+      // font-family: 'Manrope';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 48px;
+      color: #000000;
+      margin-bottom: 25px;
+    }
+  }
+  .name {
+    left: 9.21%;
+    right: 78%;
+    top: 82.68%;
+    bottom: 14.06%;
+    // font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+    margin-bottom: 6px;
+  }
+  .carousel-indicators {
+    padding: 20px;
+  }
+}
+
+.plane {
+  padding-top: 155px;
+  display: none;
+  max-width: 80%;
+
+  @media (min-width: 992px) {
+    display: block;
+  }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    margin-top: 60px;
+    padding-top: 55px;
+    padding-left: 26px;
+    height: 150px;
+  }
+}

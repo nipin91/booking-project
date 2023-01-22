@@ -1,0 +1,24 @@
+.footer{
+position: sticky;
+left: 34.65%;
+right: 58.33%;
+top: 94.01%;
+bottom: 3.91%;
+}
+ul{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+li{
+    cursor: pointer;
+padding-left: 30px;
+margin-bottom: 30px;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: -0.01em;
+color: #878B95;
+list-style: none;
+}
